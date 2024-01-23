@@ -1,0 +1,103 @@
+[
+    {
+        "icon": "bi  bi-grid ",
+        "title": "Dashboard",
+        "path": "/"
+    },
+    {
+        "icon": "bi  bi-grid ",
+        "title": "Search",
+        "path": "/search"
+    },
+    {
+        "title": "Office Staff",
+        "icon": "bi  bi-person-badge-fill",
+        "childrens": [
+            {
+                "title": "All Office Staff",
+                "path": "/office-staff/all"
+            },
+            {
+                "title": "Add Office Staff",
+                "path": "/office-staff/add"
+            }
+        ]
+    },
+    {
+        "title": "Repo Agent",
+        "icon": "bi  bi-person-fill",
+        "childrens": [
+            {
+                "title": "Add Repo Agent",
+                "path": "/repo-agent/add"
+            },
+            {
+                "title": "Show Repo Agent",
+                "path": "/repo-agent/all"
+            },
+            {
+                "title": "Generate ID Card",
+                "path": "/repo-agent/generate-id-card"
+            },
+            {
+                "title": "ID Card Details",
+                "path": "/repo-agent/all-id-card"
+
+            }
+        ]
+    },
+    {
+        "title": "Upload Data",
+        "icon": "bi  bi-person-badge-fill",
+        "childrens": [
+            {
+                "title": "Bank Wise Data",
+                "path": "/upload-data/bank-wise-data"
+            },
+            {
+                "title": "Combine Data",
+                "path": "/upload-data/combine-data"
+            },
+            {
+                "title": "Upload Files Data",
+                "path": "/upload-data/upload-files-data"
+            }
+        ]
+    },
+    {
+        "icon": "bi bi-person-badge-fill",
+        "title": "Delete Data",
+        "path": "/delete-data"
+    },
+    {
+        "icon": "bi bi-person-badge-fill",
+        "title": "Repo Agent Approval",
+        "path": "/repo-agents-approval"
+    },
+    {
+        "title": "Reports",
+        "icon": "bi  bi-person-badge-fill",
+        "childrens": [
+            {
+                "title": "All Vehicles List",
+                "path": "/reports/all-vehicle-list"
+            },
+            {
+                "title": "Hold Vehicles List",
+                "path": "/reports/hold-vehicle-list"
+            },
+            {
+                "title": "Release Vehicles List",
+                "path": "/reports/release-vehicle-list"
+            },
+            {
+                "title": "Repo Vehicles List",
+                "path": "/reports/repo-vehicle-list"
+            },
+            {
+                "title": "Confirmation Vehicles List",
+                "path": "/reports/confirmation-vehicle-list"
+            }
+        ]
+    }
+]
